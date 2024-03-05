@@ -18,8 +18,10 @@ body {
 }
 
 .rec {
-    width:70%;
-    height:50%;
+    margin: 50px;
+    width:1318px;
+    max-height:657px;
+    height:100%;
     resize: both;
     background-image: url("../assets/rec.svg"); /* The image used */
     background-position: center; /* Center the image */
@@ -54,11 +56,11 @@ body {
     align-items: center;
     font-size: 40px;
     padding: 2px 30px;
-    width: 10%;
     color: #FFFDF4;
     background: #B65E5E;
     border-radius: 60px;
-    bottom: 0px;
+    position: absolute;
+    bottom: -35px;
 }
 
 .text2 {
