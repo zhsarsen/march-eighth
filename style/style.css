@@ -18,16 +18,24 @@ body {
 }
 
 .rec {
-
-    width:50%;
+    width:70%;
     height:50%;
-    display: block;
     resize: both;
     background-image: url("../assets/rec.svg"); /* The image used */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     /*background-size: cover; !* Resize the background image to cover the entire container *!*/
     background-size: contain;
+
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    position: relative;
 }
 
 .container {
@@ -38,21 +46,43 @@ body {
     position: relative;
 }
 
-.box {
-    display:inline-block;
-    width:1300px;
-    height:657px;
-    aspect-ratio:1.5;
-    background: #FFFDF4;
-    border: 1px solid #B65E5E;
+
+.btn1 {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 2px 30px;
+    width: 10%;
+    color: #FFFDF4;
+    background: #B65E5E;
+    border-radius: 60px;
+    bottom: 0px;
 }
-.mask {
-    -webkit-mask:
-            radial-gradient(circle 130px at 0%    0% ,#0000 100%,#000) top    left,
-            radial-gradient(circle 130px at 100%    0%,#0000 98%,#000) top    right,
-            radial-gradient(circle 130px at 0% 100% ,#0000 98%,#000) bottom left,
-            radial-gradient(circle 130px at 100% 100%,#0000 98%,#000) bottom right;
-    -webkit-mask-size:51% 51%;
-    -webkit-mask-repeat:no-repeat;
-    border: 1px solid #B65E5E;
+
+.text2 {
+    font-weight: bold;
+    font-size: 150px;
+    color: #FFFDF4;
+
+    /* Width and color values */
+    -webkit-text-stroke: 0.5px #B65E5E;
+    text-stroke: 1px #B65E5E;
+}
+
+.text4 {
+    font-weight: bold;
+    font-size: 250px;
+    color: #FFFDF4;
+
+    /* Width and color values */
+    -webkit-text-stroke: 0.5px #B65E5E;
+    text-stroke: 1px #B65E5E;
+}
+
+.text3 {
+    font-weight: bold;
+    font-size: 96px;
+    color: #B65E5E;
 }
